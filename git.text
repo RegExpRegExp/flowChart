@@ -1,0 +1,37 @@
+工作区 版本库（暂存区+master各个版本分支）
+	git add 【 把当前文件放入暂存区 】
+	git commit 【 把暂存区的内容放入master分支 】
+	git status 【 是把当前的状态(工作区)和当前版本分支的所有状态做比较（虚拟一个时间段的) 】。
+	git diff 【是把当前的状态(工作区)和暂存区进行比较】。
+
+HEAD表明当前版本, HEAD^===HEAD~1等于上一个版本
+	git diff HEAD -- me.text【 和上一个版本做对比 】
+	git reset --hard HEAD^ 【 还原上个版本 】 
+	git reset HEAD me.text
+	【
+		此方法用于add添加到占存区的还原到工作区
+		比方说你container文件夹add到暂存区.但是发现里面有个me.text需要保持和当前HEAD版本相同,
+		不需要改变(假设你已经改过文字了)这个时候相当于把这个me.text的改变从暂存区撤回到工作区.
+	】
+
+checkout
+	$ git checkout ${commit} /path/to/file 		//还原某个文件到提交的版本 
+	git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令.
+
+
+
+创建SSH公钥并连接github
+	1,git bash上输入ssh-keygen -t rsa -C "username" (注：username为你git上的用户名)
+	2,Enter passphrase两次输密码（改密码用于ssh连接github时输入的用户密码）
+	3,Cat 生成的密钥pub 例：cat /User/username/.ssh/id_rsa.pub得到解析pub出来的 ssh-rsa ...
+	4,到github账户上的Setting → SSH and GPG keys 新建 New SSH key,把第三步解析出来的粘贴进去。
+	5,通过ssh连接github输入 ssh -T git@github.com, 输入密码.
+	(此时文件项目最好已经在dev状态即服务开启的开发状态,例 npm run dev)
+	6成功则返回 PTY allocation request failed on channel 0
+	Hi xxx ! You've successfully authenticated, but GitHub does not provide shell access.
+
+本地和远程github上的项目链接起来
+	$ git remote add origin git@github:RegExpRegExp/myGithub.git  【 github上项目地址 】 
+
+本地项目push上远程github
+	$ git push -u origin master
