@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-11T07:08:42.662Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="kC8LWoJtPRPtp5UEfadR" version="12.3.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-11T09:41:50.841Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="vwzs-AYWFAf3IT6iTZNY" version="12.3.9" type="github" pages="1">
   <diagram id="thLPAHnBat29S-Hlk40B" name="第 1 页">
     <mxGraphModel dx="1695" dy="482" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,16 +131,21 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-45" value="&lt;font style=&quot;font-size: 18px&quot;&gt;FillStyle&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF33;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="2330" width="120" height="60" as="geometry"/>
+          <mxGeometry x="340" y="2500" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#6666FF;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-47" target="hVxCnSyeNLPReYvmllyp-48">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="hVxCnSyeNLPReYvmllyp-47" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px&quot;&gt;shader&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6666FF;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="339" y="1820" width="120" height="60" as="geometry"/>
+        <object label="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px&quot;&gt;shader&lt;/font&gt;" 描述="着色器" link="http://pixijs.download/release/docs/PIXI.Shader.html" id="hVxCnSyeNLPReYvmllyp-47">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6666FF;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="340" y="2050" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <mxCell id="hVxCnSyeNLPReYvmllyp-111" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#9933FF;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-48" target="hVxCnSyeNLPReYvmllyp-110">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-48" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px&quot;&gt;Filter&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9933FF;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1730" width="120" height="60" as="geometry"/>
+          <mxGeometry x="340" y="1960" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-52" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Framebuffer&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-150" y="2390" width="120" height="60" as="geometry"/>
@@ -149,7 +154,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-53" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Geometry&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00CCCC;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="2580" width="120" height="60" as="geometry"/>
+          <mxGeometry x="340" y="2910" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-54" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;GLProgram&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-150" y="2470" width="120" height="60" as="geometry"/>
@@ -167,13 +172,13 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-59" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 14px&quot;&gt;BatchGeometry&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC00CC;gradientColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="340" y="2050" width="120" height="60" as="geometry"/>
+          <mxGeometry x="340" y="2280" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-60" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 14px&quot;&gt;Graphics&lt;br&gt;Geometry&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;gradientColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1950" width="120" height="60" as="geometry"/>
+          <mxGeometry x="340" y="2180" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-62" value="&lt;font style=&quot;font-size: 18px&quot;&gt;LineStyle&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="2230" width="120" height="60" as="geometry"/>
+          <mxGeometry x="340" y="2400" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-64" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Loader&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-150" y="2710" width="120" height="60" as="geometry"/>
@@ -187,6 +192,9 @@
         <mxCell id="hVxCnSyeNLPReYvmllyp-67" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Matrix&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-150" y="2950" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="hVxCnSyeNLPReYvmllyp-106" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFCCFF;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-69" target="hVxCnSyeNLPReYvmllyp-105">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-69" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Mesh&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="1010" width="120" height="60" as="geometry"/>
         </mxCell>
@@ -199,24 +207,29 @@
         <mxCell id="hVxCnSyeNLPReYvmllyp-71" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;MeshBatchUvs&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-150" y="3030" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="hVxCnSyeNLPReYvmllyp-102" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CC0000;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-72" target="hVxCnSyeNLPReYvmllyp-101">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-72" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;MeshGeometry&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="2480" width="120" height="60" as="geometry"/>
+          <mxGeometry x="340" y="2810" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-74" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px&quot;&gt;MeshMaterial&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9933FF;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1730" width="120" height="60" as="geometry"/>
+          <mxGeometry x="180" y="1960" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-75" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#6666FF;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-47" target="hVxCnSyeNLPReYvmllyp-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="409" y="1830" as="sourcePoint"/>
-            <mxPoint x="410" y="1800" as="targetPoint"/>
+            <mxPoint x="409" y="2060" as="sourcePoint"/>
+            <mxPoint x="410" y="2030" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="hVxCnSyeNLPReYvmllyp-79" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF9999;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-76" target="hVxCnSyeNLPReYvmllyp-78">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="hVxCnSyeNLPReYvmllyp-76" value="&lt;span style=&quot;font-size: 18px&quot;&gt;simplePlane&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1010" width="120" height="60" as="geometry"/>
-        </mxCell>
+        <object label="&lt;span style=&quot;font-size: 18px&quot;&gt;simplePlane&lt;/span&gt;" 描述="SimplePlane允许您在几个点上绘制纹理，然后操作这些点" link="http://pixijs.download/release/docs/PIXI.SimplePlane.html" id="hVxCnSyeNLPReYvmllyp-76">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="530" y="1010" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
         <mxCell id="hVxCnSyeNLPReYvmllyp-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFCCFF;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-69" target="hVxCnSyeNLPReYvmllyp-76">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="920" as="sourcePoint"/>
@@ -250,15 +263,81 @@
         <mxCell id="hVxCnSyeNLPReYvmllyp-87" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Program&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-150" y="3430" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="hVxCnSyeNLPReYvmllyp-90" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;QuadUv&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="2480" width="120" height="60" as="geometry"/>
-        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;QuadUv&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" 描述="帮助类来创建一个带有uv的quad，就像v4中的一样" link="http://pixijs.download/release/docs/PIXI.QuadUv.html" id="hVxCnSyeNLPReYvmllyp-90">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="180" y="2810" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
         <mxCell id="hVxCnSyeNLPReYvmllyp-91" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#00CCCC;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-53" target="hVxCnSyeNLPReYvmllyp-90">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="2590" as="sourcePoint"/>
-            <mxPoint x="410" y="2550" as="targetPoint"/>
+            <mxPoint x="410" y="2920" as="sourcePoint"/>
+            <mxPoint x="410" y="2880" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Rectangle&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" 描述="矩形对象是一个由它的位置定义的区域，由它的左上角点(x, y)和它的宽度和高度表示。" link="http://pixijs.download/release/docs/PIXI.Rectangle.html" id="hVxCnSyeNLPReYvmllyp-93">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-150" y="3510" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Renderer&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" 描述="渲染器将场景及其所有内容绘制到支持WebGL的画布上。&#xa;这个渲染器应该用于支持WebGL的浏览器。&#xa;这个渲染器通过自动管理WebGLBatchesm工作，所以不需要Sprite批量或Sprite云。不要忘记将视图添加到DOM中，否则您将看不到任何内容!" link="http://pixijs.download/release/docs/PIXI.Renderer.html" id="hVxCnSyeNLPReYvmllyp-95">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-150" y="3590" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <mxCell id="hVxCnSyeNLPReYvmllyp-99" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#99004D;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-97" target="hVxCnSyeNLPReYvmllyp-98">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px&quot;&gt;Texture&lt;/font&gt;" 描述="纹理存储表示图像或图像的一部分的信息。&#xa;不能直接添加到显示列表中;而是使用它作为一个精灵的纹理。如果没有为纹理提供帧，则使用整个图像。" link="http://pixijs.download/release/docs/PIXI.Texture.html" id="hVxCnSyeNLPReYvmllyp-97">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#99004D;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="350" y="3230" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px&quot;&gt;RenderTexture&lt;/font&gt;" 描述="RenderTexture是一种特殊的纹理，它允许将任何PixiJS显示对象呈现给它。" link="http://pixijs.download/release/docs/PIXI.RenderTexture.html" id="hVxCnSyeNLPReYvmllyp-98">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#660066;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="350" y="3130" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;RendererTexture&lt;br&gt;Pool&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" 描述="实验!&#xa;纹理池，由FilterSystem和插件使用，存储临时pow2或屏幕大小的渲染纹理的集合&#xa;如果您为您的过滤器使用自定义的RenderTexturePool，您可以使用方法getFilterTexture和returnFilterTexture与in相同" link="http://pixijs.download/release/docs/PIXI.RenderTexturePool.html" id="hVxCnSyeNLPReYvmllyp-100">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-150" y="3670" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="&lt;font style=&quot;font-size: 14px&quot;&gt;RopeGeometry&lt;/font&gt;" 描述="RopeGeometry允许您在几个点上绘制几何图形，然后操作这些点。" link="http://pixijs.download/release/docs/PIXI.RopeGeometry.html" id="hVxCnSyeNLPReYvmllyp-101">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFB3;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="340" y="2710" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;RoundedRectangle&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" 描述="圆角矩形对象是一个具有漂亮圆角的区域，由其左上角点(x, y)、宽度、高度和半径表示。" link="http://pixijs.download/release/docs/PIXI.RoundedRectangle.html" id="hVxCnSyeNLPReYvmllyp-103">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-150" y="3750" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Runner&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" 描述="跑步者是一种高效、简单的信号替代品。最好用于事件以高频率分配给多个对象的情况(比如每个帧!)" link="http://pixijs.download/release/docs/PIXI.Runner.html" id="hVxCnSyeNLPReYvmllyp-104">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#330000;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-150" y="3830" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-size: 18px&quot;&gt;simpleMesh&lt;/span&gt;" 描述="简单的Mesh类模仿了PixiJS v4中的Mesh，提供了易于使用的构造函数参数。要实现更健壮的定制，可以使用PIXI.Mesh。" link="http://pixijs.download/release/docs/PIXI.SimpleMesh.html" id="hVxCnSyeNLPReYvmllyp-105">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="530" y="910" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-size: 18px&quot;&gt;simpleRope&lt;/span&gt;" 描述="绳索允许你在几个点上绘制纹理，然后操纵这些点" link="http://pixijs.download/release/docs/PIXI.SimpleRope.html" id="hVxCnSyeNLPReYvmllyp-107">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="530" y="1110" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <mxCell id="hVxCnSyeNLPReYvmllyp-108" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFCCFF;strokeWidth=3;" edge="1" parent="1" source="hVxCnSyeNLPReYvmllyp-69" target="hVxCnSyeNLPReYvmllyp-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1050" as="sourcePoint"/>
+            <mxPoint x="540" y="950" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font style=&quot;font-size: 14px&quot;&gt;SpriteMask&lt;br&gt;Filter&lt;/font&gt;" 描述="这处理一个精灵作为一个面具，而不是一个图形。" link="http://pixijs.download/release/docs/PIXI.SpriteMaskFilter.html" id="hVxCnSyeNLPReYvmllyp-110">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#33FFFF;gradientColor=none;" vertex="1" parent="1">
+            <mxGeometry x="340" y="1860" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
